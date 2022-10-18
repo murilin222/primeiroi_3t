@@ -37,6 +37,16 @@ function quadrado(){
 function total(){
  let val = document.getElementById("valor").value;
  let ju = document.getElementById("juros").value;
+
+  if(!Number(val)){
+      alert("o valor deve ser um número. ");
+      document.getElementById("valor").value = "";
+      document.getElementById("valor").focus();
+      return
+
+  }
+  
+
  let resultado = (val * (ju/100)) + val;
  document.write("o total é de: " + resultado);
 }
