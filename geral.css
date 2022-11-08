@@ -1,21 +1,143 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@murilin222 
+bronkioshi
+/
+primeiroi_3t
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+You’re making changes in a project you don’t have write access to. Submitting a change will write it to a new branch in your fork murilin222/primeiroi_3t-2, so you can send a pull request.
+primeiroi_3t
+/
+Geral.css
+in
+bronkioshi:main
+ 
+
+Spaces
+
+4
+
+No wrap
+1
 .calculadora {
-    background: rgb(13, 145, 31);
+2
+    background: blueviolet;
+3
     width: 200px;
+4
     padding: 10px;
+5
+    color: whitesmoke;
+6
+    border-radius: 10px;
+7
+    box-shadow:  5px  5px rgb(0,0,0);
+8
+    text-align: center;
+9
 }
-#btnCalc {
-    background: rgb(52, 236, 92);
-    color: white;
-    padding: 5px;
+10
+.calculadora input{
+11
+    background: coral;
+12
+    border: none;
+13
+    padding:5px;
+14
+    border-radius: 5px;
+15
 }
-#btnCalc:hover {
-    background: rgb(6, 90, 24);
-    color: black;
-    cursor: pointer;
-}
-.spResultado{
+16
+.calculadora input:focus{
+17
     background: black;
-    color: yellow;
-    padding: 4px;
-    margin: 2px;
+18
+    color: rgb(255, 0, 0);
+19
 }
+20
+​
+21
+#btnCalc{
+22
+    background: chartreuse;
+23
+    color: black;
+24
+    padding: 7px;
+25
+    border-radius: 5px;
+26
+    margin-top: 10px;
+27
+}
+28
+#btnCalc:hover {
+29
+    background: green;
+30
+    color: whitesmoke;
+31
+}
+32
+.spResultado{
+33
+    background: black;
+34
+    color: yellow;
+35
+    padding: 4px;
+36
+    margin: 2px;
+37
+    border-radius: 10px;
+38
+}
+39
+.spMes{
+40
+    color: red;
+41
+    background: saddlebrown;
+42
+    border-width: 1px;
+43
+    border-style: dashed;
+44
+    border-color: rgb(0,0,0);
+45
+    text-align: start;
+@murilin222
+Propose changes
+Commit summary
+Create Geral.css
+Optional extended description
+Add an optional extended description…
+ 
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
